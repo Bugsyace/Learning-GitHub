@@ -14,6 +14,7 @@
 		EDED7DA3278F39DC00144B77 /* LearningGHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED7DA2278F39DC00144B77 /* LearningGHTests.swift */; };
 		EDED7DAD278F39DC00144B77 /* LearningGHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED7DAC278F39DC00144B77 /* LearningGHUITests.swift */; };
 		EDED7DAF278F39DC00144B77 /* LearningGHUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED7DAE278F39DC00144B77 /* LearningGHUITestsLaunchTests.swift */; };
+		EDED7DBC2791CE1D00144B77 /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED7DBB2791CE1D00144B77 /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EDED7DA8278F39DC00144B77 /* LearningGHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningGHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDED7DAC278F39DC00144B77 /* LearningGHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGHUITests.swift; sourceTree = "<group>"; };
 		EDED7DAE278F39DC00144B77 /* LearningGHUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGHUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDED7DBB2791CE1D00144B77 /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		EDED7D85278F39DA00144B77 = {
 			isa = PBXGroup;
 			children = (
+				EDED7DBB2791CE1D00144B77 /* MyModel.swift */,
 				EDED7D90278F39DA00144B77 /* LearningGH */,
 				EDED7DA1278F39DC00144B77 /* LearningGHTests */,
 				EDED7DAB278F39DC00144B77 /* LearningGHUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDED7D94278F39DA00144B77 /* ContentView.swift in Sources */,
+				EDED7DBC2791CE1D00144B77 /* MyModel.swift in Sources */,
 				EDED7D92278F39DA00144B77 /* LearningGHApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
